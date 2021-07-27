@@ -1,4 +1,5 @@
-# libRest
+# <img src="https://github.com/bernardosegura/libRest/blob/master/img/libRest.svg" height="100px" width="100px"/> 
+# LibRest 
 Librería para poder generar servicios web Rest en **php**, sin la necesidad de modificar ninguna configuración en el servidor web y de esta manera poder ser usada desde una aplicación Frontend y/o cualquier otra tecnología que lo soporten.
 
 ### Metodos Soportados
