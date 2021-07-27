@@ -17,7 +17,7 @@ Para iniciar la api:
 > $api = new **restApi()**;
 
 Una vez iniciada se agregan los métodos que se necesitan implementar:
-```
+```php
 $api->get = function($data) // metodo a implementado (Get)
            {
              //código a ejecutar, en este caso regresa el json obtenido.
