@@ -24,6 +24,6 @@ $api->get = function($data) // metodo a implementado (Get)
            };
 ```
 Por último iniciamos la api:
-> $api->start();
+> $api->**start()**;
 
 Y a disfrutar de un servicio **Restful** sin ninguna configuración directa en el servidor web.
