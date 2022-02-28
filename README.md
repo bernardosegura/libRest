@@ -10,11 +10,14 @@ Cuenta con métodos para generar token de manera lineal y que puedan con tiempo 
 
 ## Intalación
 Simplemente incluye la librería a tu archivo:
-> include "**libRest.php**";
-
+```php
+include "libRest.php";
+```
 ## Uso
 Para iniciar la api:
-> $api = new **restApi()**;
+```php
+$api = new restApi();
+```
 
 Una vez iniciada se agregan los métodos que se necesitan implementar:
 ```php
@@ -25,6 +28,8 @@ $api->get = function($data) // metodo a implementado (Get)
            };
 ```
 Por último iniciamos la api:
-> $api->**start()**;
+```php
+$api->start();
+```
 
 Y a disfrutar de un servicio **Restful** sin ninguna configuración directa en el servidor web.
